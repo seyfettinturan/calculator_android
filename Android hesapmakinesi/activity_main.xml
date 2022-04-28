@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#000000">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="197dp"
+            android:text="|"
+            android:textColor="#ffffff"
+            android:textSize="28pt"
+            android:enabled="false"
+            android:paddingLeft="10dp"
+            android:gravity="end"
+            />
+        <Button
+            android:layout_width="84dp"
+            android:layout_height="60dp"
+            android:background="#000000"
+            android:text="⌫"
+            android:textColor="#8BC34A"
+            android:textSize="14pt"
+            android:layout_gravity="right"
+            android:layout_rowWeight="1"
+            />
+
+        <GridLayout
+        android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:rowCount="5">
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="c"
+                android:textColor="#FFC107"
+                android:textSize="14pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="( )"
+                android:textColor="#8BC34A"
+                android:textSize="14pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="%"
+                android:textColor="#8BC34A"
+                android:textSize="14pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="÷"
+                android:textColor="#8BC34A"
+                android:textSize="12pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="7"
+                android:textColor="#ffffff"
+                android:textSize="14pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="8"
+                android:textColor="#ffffff"
+                android:textSize="14pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="9"
+                android:textColor="#ffffff"
+                android:textSize="14pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="x"
+                android:textColor="#8BC34A"
+                android:textSize="12pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="4"
+                android:textColor="#ffffff"
+                android:textSize="14pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="5"
+                android:textColor="#ffffff"
+                android:textSize="14pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="6"
+                android:textColor="#ffffff"
+                android:textSize="14pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="-"
+                android:textColor="#8BC34A"
+                android:textSize="12pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="14pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="2"
+                android:textColor="#ffffff"
+                android:textSize="14pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="3"
+                android:textColor="#ffffff"
+                android:textSize="14pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="+"
+                android:textColor="#8BC34A"
+                android:textSize="12pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="+/-"
+                android:textColor="#ffffff"
+                android:textSize="14pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:textSize="14pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/butonarkaplan"
+                android:text=","
+                android:textColor="#ffffff"
+                android:textSize="12pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="60dp"
+                android:background="@drawable/esittirarkaplan"
+                android:text="="
+                android:textColor="#ffffff"
+                android:textSize="12pt"
+                android:layout_rowWeight="1"
+                android:layout_margin="5dp"
+                />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
